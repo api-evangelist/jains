@@ -1,8 +1,29 @@
 aid: jains
-name: Jains
-description: 'Jains is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jains.png
+name: Jain Irrigation Systems Ltd
+description: >-
+  Jain Irrigation Systems Ltd (JISL) is a global agri-industrial conglomerate
+  headquartered in Jalgaon, Maharashtra, India, and is widely cited as the
+  world's largest micro-irrigation company. Founded in 1963 by Padma Shri
+  recipient Bhavarlal Jain under the slogan "More Crop Per Drop," the company
+  manufactures drip and sprinkler irrigation systems, PVC/HDPE/PP and plumbing
+  piping, rigid and foam plastic sheets, solar pumping and photovoltaic systems,
+  tissue-culture planting material, greenhouses and protected cultivation, and
+  processed foods. JISL operates 33 manufacturing bases across four continents,
+  serves 126+ countries through 11,000+ dealers, is listed on the BSE and NSE,
+  and reports turnover exceeding USD 1.2 billion. The company publishes a
+  structured llms.txt for AI crawlers but exposes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/jains/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +31,28 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: >-
+  Domain jains.com resolves to Jain Irrigation Systems Ltd, a publicly-traded
+  (BSE/NSE) Indian irrigation and agri-industrial manufacturer. No public
+  developer API, SDK, or portal exists; enrichment is limited to verified
+  identity, a searched llms.txt, and probed domain-security posture.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Agriculture
+- Irrigation
+- Micro Irrigation
+- Drip Irrigation
+- Piping
+- Plastics
+- Solar Energy
+- Tissue Culture
+- Food Processing
+- Manufacturing
+- India
+- AgTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +60,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/jains-domain-security.yml
 - type: Website
-  url: https://jains.com
+  url: https://www.jains.com
+- type: About
+  url: https://www.jains.com/Company/about_us.htm
+- type: Products
+  url: https://www.jains.com/PS/index.htm
+- type: Blog
+  url: https://www.jains.com/Company/news/news.htm
+- type: PrivacyPolicy
+  url: https://www.jains.com/Company/privacy_policy.htm
+- type: TermsOfService
+  url: https://www.jains.com/Company/Terms_Conditions.htm
+- type: Careers
+  url: https://www.jains.com/Company/jobs.htm
+- type: Investors
+  url: https://www.jains.com/Company/investor/index.php
+- type: Contact
+  url: https://www.jains.com/Reachus/reachus.htm
+- type: LLMsTxt
+  url: llms/jains-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
