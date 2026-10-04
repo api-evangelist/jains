@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jains.png
-name: Jain Irrigation Systems Ltd
+name: Jain Irrigation Systems
 description: >-
   Jain Irrigation Systems Ltd (JISL) is a global agri-industrial conglomerate
   headquartered in Jalgaon, Maharashtra, India, and is widely cited as the
@@ -98,3 +98,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Jain Irrigation Systems Ltd
